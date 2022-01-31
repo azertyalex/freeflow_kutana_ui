@@ -467,7 +467,7 @@ export class VideoRoomPlugin {
                     };
 
                     if (this.bitrateCap) {
-                        message.bitrate = 128000 * 2;
+                        message.bitrate = 128000 * 6;
                     }
 
                     this.pluginHandle.send({
